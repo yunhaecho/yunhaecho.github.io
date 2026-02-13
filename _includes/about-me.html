@@ -1,0 +1,98 @@
+
+<html lang="ko">
+<head>
+<style>
+    * {
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }
+
+    .name-container {
+        text-align: center;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        padding-top:20%;
+    }
+    .profile-container {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 50px;
+        max-width: 1200px;
+        margin: 100px auto;
+        padding: 0 20px;
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+    }
+
+    .profile-image {
+        flex: 1;
+        max-width: 500px;
+    }
+
+    .profile-image img {
+        width: 100%;
+        height: auto;
+        display: block;
+        object-fit: cover;
+    }
+
+
+    .profile-content {
+        flex: 1;
+    }
+
+    .description {
+        font-size: 16px;
+        line-height: 1.8;
+        color: #333;
+        letter-spacing: 0.5px;
+        word-break: keep-all;
+    }
+
+.description p {
+    margin-bottom: 30px;
+    padding: 0px 15px 15px 15px;
+    border: 1px solid transparent;
+}
+    @media (max-width: 768px) {
+        .profile-container {
+            flex-direction: column;
+            gap: 30px;
+            margin: 50px auto;
+        }
+        .profile-image, .profile-content {
+            max-width: 100%;
+        }
+    }
+</style>
+</head>
+<body>
+    <div class="name-container">Yunhae Cho</div>
+
+    <div class="profile-container">
+        <div class="profile-image">
+            <img src="/assets/images/about/thumbs.jpg" alt="Profile Image">
+        </div>
+
+        <div class="profile-content">
+
+
+            <div class="description">
+                <p>
+        본질을 깊이 있게 탐구하는 프론트엔드 개발자 조윤해입니다. 
+        단순히 기능을 구현하는 것을 넘어, '왜?'라는 질문을 통해 문제의 핵심을 파악하고 최적의 솔루션을 제시합니다. 
+        구름톤 딥 다이브 과정을 통해 다져진 탄탄한 기본기를 바탕으로, 누구나 직관적이고 편리하게 사용할 수 있는 웹 인터페이스를 구축합니다.
+    </p>
+    <p>
+        직접 개발한 NPM 달력 컴포넌트 라이브러리로 900회 이상의 다운로드를 기록하며 개발 생산성을 높인 경험이 있습니다. 
+        또한, 'react-bits' 오픈소스 프로젝트 기여와 성능 최적화 작업을 통해 기술적 깊이를 증명해왔습니다. 
+        동료와의 테크톡과 코드 리뷰를 즐기며, 함께 성장하는 개발 문화를 지향합니다.
+    </p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
